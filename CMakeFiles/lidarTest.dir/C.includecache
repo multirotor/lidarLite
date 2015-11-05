@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/lidarLite/src/lidarTest.c
+lidarLite.h
+/home/pi/lidarLite/src/lidarLite.h
+time.h
+-
+
+include/lidarLite.h
+stdio.h
+-
+wiringPiI2C.h
+-
+stdbool.h
+-
+
